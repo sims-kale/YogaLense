@@ -99,8 +99,9 @@ def key_features(flitered_dataset_path, key_features_csv):
 
     # Load MediaPipe Pose model
     mp_pose = mp.solutions.pose
-    pose = mp_pose.Pose()
+    pose = mp_pose.Pose()  # 33 key-points
     mp_drawing = mp.solutions.drawing_utils
+
     # Load image
     for dirpath, dirnames, filenames in os.walk(flitered_dataset_path):
         # Check if the current directory is "Tree_Pose_or_Vrksasana__images"
@@ -108,7 +109,7 @@ def key_features(flitered_dataset_path, key_features_csv):
             print(f"Found directory: {dirpath}")
 
             for index, img in enumerate(filenames):
-                if index == 3:  # Process only the first 3 images
+                if index == 1:  # Process only the first 3 images
                     break
 
                 # Create the full path to the image
@@ -149,12 +150,21 @@ def key_features(flitered_dataset_path, key_features_csv):
                     # Optionally, draw the pose landmarks on the image
                     if results.pose_landmarks:
                         mp_drawing.draw_landmarks(
-                            image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS)
+                            image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS,
+                            landmark_drawing_spec=mp_drawing.DrawingSpec(color=(245, 117, 66), thickness=2,
+                                                                         circle_radius=2),
+                            connection_drawing_spec=mp_drawing.DrawingSpec(color=(0, 255, 0), thickness=2,
+                                                                           circle_radius=5))
 
                     # Display or save the processed image
-                    cv2.imshow("Processed Image", image)
-                    cv2.waitKey(0)  # Wait for a key press to close the window
-                    cv2.destroyAllWindows()
+                    # cv2.imshow("Processed Image", image)
+                    # cv2.waitKey(0)  # Wait for a key press to close the window
+                    # cv2.destroyAllWindows()
+
+                    f, axes = plt.subplots(1, 1, figsize=(10, 10))
+                    axes.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+                    axes.title.set_text("33 Key-points Detected")
+                    plt.show()
 
                 except Exception as e:
                     print(f"Error processing image {image_path}: {e}")

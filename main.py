@@ -5,7 +5,7 @@ from pre_preprocess import preprocess_data, key_features
 
 # DEFINE PATHS
 dataset_path = r"./dataset/train/"
-loaded_dataset_path = "D:/SHU/Applied ai/Assesment/loaded_dataset/train/"
+loaded_dataset_path = r"D:\SHU\Applied ai\Assesment\filtered_data"
 
 
 def main():
@@ -16,7 +16,7 @@ def main():
     print("Step 1: Preprocessing images...")
 
     # PREPROCESSING - Load and preprocess images
-    preprocess_data(dataset_path, loaded_dataset_path)
+    # preprocess_data(dataset_path, loaded_dataset_path)
 
     # Step 2: Extract keypoints & save to CSV (MEDIAPIPE)
     print("\nStep 2: Extracting keypoints...")
