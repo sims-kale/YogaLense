@@ -94,7 +94,7 @@ def save_preprocess_images(flitered_dataset_path, filename, relative_path, norma
 #     )
 
 
-def key_features(flitered_dataset_path, key_features_csv):
+def key_features(flitered_dataset_path, key_points_dir, key_features_csv):
     # print("test")
 
     # Load MediaPipe Pose model
@@ -105,6 +105,9 @@ def key_features(flitered_dataset_path, key_features_csv):
     # Load image
     for dirpath, dirnames, filenames in os.walk(flitered_dataset_path):
         # Check if the current directory is "Tree_Pose_or_Vrksasana__images"
+        relative_path = os.path.relpath(dirpath, flitered_dataset_path)
+        dest_dir = os.path.join(key_points_dir, relative_path)
+        os.makedirs(dest_dir, exist_ok=True)
         if os.path.basename(dirpath) == "Tree_Pose_or_Vrksasana__images":
             print(f"Found directory: {dirpath}")
 
@@ -142,8 +145,10 @@ def key_features(flitered_dataset_path, key_features_csv):
                         df = pd.DataFrame(keypoints, columns=["Joint", "X", "Y", "Z", "Visibility"])
 
                         # Save keypoints to CSV file
+
                         csv_filename = os.path.splitext(os.path.basename(image_path))[0] + key_features_csv
-                        df.to_csv(csv_filename, index=False)
+                        dest_path = os.path.join(dest_dir, csv_filename)
+                        df.to_csv(dest_path, index=False)
 
                         print(f"Keypoints saved to {csv_filename}")
 

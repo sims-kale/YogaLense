@@ -5,7 +5,7 @@ from pre_preprocess import preprocess_data, key_features
 
 # DEFINE PATHS
 dataset_path = r"./dataset/train/"
-loaded_dataset_path = r"D:\SHU\Applied ai\Assesment\filtered_data"
+filter_dataset_path = r"D:\SHU\Applied ai\Assesment\filtered_data"
 
 
 def main():
@@ -16,13 +16,15 @@ def main():
     print("Step 1: Preprocessing images...")
 
     # PREPROCESSING - Load and preprocess images
-    # preprocess_data(dataset_path, loaded_dataset_path)
+    # preprocess_data(dataset_path, filter_dataset_path)
 
     # Step 2: Extract keypoints & save to CSV (MEDIAPIPE)
     print("\nStep 2: Extracting keypoints...")
     # documentation- https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker
+
+    key_points_dir = "./keypoints/"
     key_features_csv = "key_feature.csv"
-    key_features(loaded_dataset_path, key_features_csv)
+    key_features(filter_dataset_path,key_points_dir, key_features_csv)
 
     # # Step 3: Train classification model
     # print("\nStep 3: Training model...")
