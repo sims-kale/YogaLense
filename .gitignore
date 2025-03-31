@@ -1,6 +1,17 @@
-/dataset/
-/filtered_data/
-/archive/
-/venv/
+# Ignore dataset and processed data
+dataset/
+filtered_data/
+non_filtered_data/
+archive/
+keypoints/
+
+# Ignore virtual environment
+yogalense/
+
+# Ignore IDE-specific files
 .idea/
-/keypoints
+
+# Ignore logs and keypoints
+
+log_files/
+utils/logs/
