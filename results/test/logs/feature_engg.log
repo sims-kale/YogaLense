@@ -1,0 +1,712 @@
+INFO - Step 3: Feature Engineering...
+INFO - --------------------------------------------------
+INFO - Processing file: Cobra_Pose_or_Bhujangasana__images_0.jpg
+INFO - Total keypoints detected for Cobra_Pose_or_Bhujangasana__images_0.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 84.18738064080974 degrees
+INFO - Calculated angle for right_elbow: 27.184657063551466 degrees
+INFO - Calculated angle for left_knee: 119.08560527970836 degrees
+INFO - Calculated angle for right_knee: 160.52348748395406 degrees
+INFO - Calculated angle for left_shoulder: 141.95547534330393 degrees
+INFO - Calculated angle for right_shoulder: 165.5051776724214 degrees
+INFO - Calculated angle for left_ankle: 141.54434016112555 degrees
+INFO - Calculated angle for right_ankle: 50.190944592172755 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0007467369739876825
+INFO - Calculated distance for hip_to_knee: 0.0015547332256521313
+INFO - Calculated distance for shoulder_to_hip: 0.002067232028983609
+INFO - Calculated distance for hip_to_ankle: 0.00276009081222217
+INFO - cobra_pose: left_elbow angle 84.19 within range (40, 180)
+WARNING - cobra_pose: right_elbow angle 27.18 out of range (40, 180)
+INFO - cobra_pose: left_knee angle 119.09 within range (80, 180)
+INFO - cobra_pose: right_knee angle 160.52 within range (80, 180)
+INFO - cobra_pose: left_ankle angle 141.54 within range (40, 180)
+INFO - cobra_pose: right_ankle angle 50.19 within range (40, 180)
+INFO - cobra_pose: left_shoulder angle 141.96 within range (80, 180)
+INFO - cobra_pose: right_shoulder angle 165.51 within range (80, 180)
+WARNING - cobra_pose: shoulder_to_wrist distance 0.000747 out of range (0.001, 0.002)
+WARNING - cobra_pose: hip_to_knee distance 0.001555 out of range (0.0001, 0.001)
+WARNING - cobra_pose: shoulder_to_hip distance 0.002067 out of range (0.0001, 0.001)
+WARNING - cobra_pose: hip_to_ankle distance 0.002760 out of range (0.0001, 0.0025)
+INFO - cobra_pose: correct - 7/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Cobra_Pose_or_Bhujangasana__images_1.jpg
+INFO - Total keypoints detected for Cobra_Pose_or_Bhujangasana__images_1.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 160.8614009510229 degrees
+INFO - Calculated angle for right_elbow: 158.85097526790202 degrees
+INFO - Calculated angle for left_knee: 119.67366545127453 degrees
+INFO - Calculated angle for right_knee: 116.21602398730752 degrees
+INFO - Calculated angle for left_shoulder: 13.12348377973157 degrees
+INFO - Calculated angle for right_shoulder: 32.88748443215457 degrees
+INFO - Calculated angle for left_ankle: 149.42642190186993 degrees
+INFO - Calculated angle for right_ankle: 149.54947558251752 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0013371703554810306
+INFO - Calculated distance for hip_to_knee: 0.001011024373882736
+INFO - Calculated distance for shoulder_to_hip: 0.0015535064600157333
+INFO - Calculated distance for hip_to_ankle: 0.0015849336952217972
+INFO - cobra_pose: left_elbow angle 160.86 within range (40, 180)
+INFO - cobra_pose: right_elbow angle 158.85 within range (40, 180)
+INFO - cobra_pose: left_knee angle 119.67 within range (80, 180)
+INFO - cobra_pose: right_knee angle 116.22 within range (80, 180)
+INFO - cobra_pose: left_ankle angle 149.43 within range (40, 180)
+INFO - cobra_pose: right_ankle angle 149.55 within range (40, 180)
+WARNING - cobra_pose: left_shoulder angle 13.12 out of range (80, 180)
+WARNING - cobra_pose: right_shoulder angle 32.89 out of range (80, 180)
+INFO - cobra_pose: shoulder_to_wrist distance 0.001337 within range (0.001, 0.002)
+WARNING - cobra_pose: hip_to_knee distance 0.001011 out of range (0.0001, 0.001)
+WARNING - cobra_pose: shoulder_to_hip distance 0.001554 out of range (0.0001, 0.001)
+INFO - cobra_pose: hip_to_ankle distance 0.001585 within range (0.0001, 0.0025)
+INFO - cobra_pose: correct - 8/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Cobra_Pose_or_Bhujangasana__images_3.jpg
+INFO - Total keypoints detected for Cobra_Pose_or_Bhujangasana__images_3.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 160.4535201324388 degrees
+INFO - Calculated angle for right_elbow: 172.4585943325946 degrees
+INFO - Calculated angle for left_knee: 163.5088965974969 degrees
+INFO - Calculated angle for right_knee: 165.15487699951703 degrees
+INFO - Calculated angle for left_shoulder: 106.01934994675862 degrees
+INFO - Calculated angle for right_shoulder: 134.3801466343943 degrees
+INFO - Calculated angle for left_ankle: 125.69410137642275 degrees
+INFO - Calculated angle for right_ankle: 121.42129513789716 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0013647301074581136
+INFO - Calculated distance for hip_to_knee: 0.0010489096433998878
+INFO - Calculated distance for shoulder_to_hip: 0.0011849848324809338
+INFO - Calculated distance for hip_to_ankle: 0.0022132082488593966
+INFO - cobra_pose: left_elbow angle 160.45 within range (40, 180)
+INFO - cobra_pose: right_elbow angle 172.46 within range (40, 180)
+INFO - cobra_pose: left_knee angle 163.51 within range (80, 180)
+INFO - cobra_pose: right_knee angle 165.15 within range (80, 180)
+INFO - cobra_pose: left_ankle angle 125.69 within range (40, 180)
+INFO - cobra_pose: right_ankle angle 121.42 within range (40, 180)
+INFO - cobra_pose: left_shoulder angle 106.02 within range (80, 180)
+INFO - cobra_pose: right_shoulder angle 134.38 within range (80, 180)
+INFO - cobra_pose: shoulder_to_wrist distance 0.001365 within range (0.001, 0.002)
+WARNING - cobra_pose: hip_to_knee distance 0.001049 out of range (0.0001, 0.001)
+WARNING - cobra_pose: shoulder_to_hip distance 0.001185 out of range (0.0001, 0.001)
+INFO - cobra_pose: hip_to_ankle distance 0.002213 within range (0.0001, 0.0025)
+INFO - cobra_pose: correct - 10/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Cobra_Pose_or_Bhujangasana__images_5.jpg
+INFO - Total keypoints detected for Cobra_Pose_or_Bhujangasana__images_5.jpg: 33
+INFO - Keypoint 15 removed due to low visibility: 0.027824101969599724
+INFO - Keypoint 17 removed due to low visibility: 0.03956163674592972
+INFO - Keypoint 19 removed due to low visibility: 0.040883440524339676
+INFO - Keypoint 21 removed due to low visibility: 0.03714703395962715
+INFO - Keypoint 25 removed due to low visibility: 0.029838792979717255
+INFO - Keypoint 27 removed due to low visibility: 0.016738777980208397
+INFO - Keypoint 29 removed due to low visibility: 0.037945352494716644
+INFO - Keypoint 31 removed due to low visibility: 0.010564351454377174
+INFO - Filtered Keypoints Length: 100
+WARNING - Insufficient keypoints for Cobra_Pose_or_Bhujangasana__images_5.jpg. Attempting to impute missing keypoints.
+INFO - Imputed keypoint 25: [0.004465172333376748, 0.0035606750420161654, 0.5651499629020691, 0.0]
+INFO - Imputed keypoint 26: [0.004465172333376748, 0.0035606750420161654, 0.5651499629020691, 0.0]
+INFO - Imputed keypoint 27: [0.004465172333376748, 0.0035606750420161654, 0.5651499629020691, 0.0]
+INFO - Imputed keypoint 28: [0.004465172333376748, 0.0035606750420161654, 0.5651499629020691, 0.0]
+INFO - Imputed keypoint 29: [0.004465172333376748, 0.0035606750420161654, 0.5651499629020691, 0.0]
+INFO - Imputed keypoint 30: [0.004465172333376748, 0.0035606750420161654, 0.5651499629020691, 0.0]
+INFO - Imputed keypoint 31: [0.004465172333376748, 0.0035606750420161654, 0.5651499629020691, 0.0]
+INFO - Imputed keypoint 32: [0.004465172333376748, 0.0035606750420161654, 0.5651499629020691, 0.0]
+INFO - Calculated angle for left_elbow: 122.06921368757219 degrees
+INFO - Calculated angle for right_elbow: 150.6164970894106 degrees
+INFO - Calculated angle for left_knee: nan degrees
+INFO - Calculated angle for right_knee: nan degrees
+INFO - Calculated angle for left_shoulder: 135.17933358438836 degrees
+INFO - Calculated angle for right_shoulder: 176.64911804303745 degrees
+INFO - Calculated angle for left_ankle: nan degrees
+INFO - Calculated angle for right_ankle: nan degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0010298501816299551
+INFO - Calculated distance for hip_to_knee: 0.00011856104512829493
+INFO - Calculated distance for shoulder_to_hip: 0.0017312341501483496
+INFO - Calculated distance for hip_to_ankle: 0.00011856104512829493
+INFO - cobra_pose: left_elbow angle 122.07 within range (40, 180)
+INFO - cobra_pose: right_elbow angle 150.62 within range (40, 180)
+WARNING - cobra_pose: left_knee angle nan out of range (80, 180)
+WARNING - cobra_pose: right_knee angle nan out of range (80, 180)
+WARNING - cobra_pose: left_ankle angle nan out of range (40, 180)
+WARNING - cobra_pose: right_ankle angle nan out of range (40, 180)
+INFO - cobra_pose: left_shoulder angle 135.18 within range (80, 180)
+INFO - cobra_pose: right_shoulder angle 176.65 within range (80, 180)
+INFO - cobra_pose: shoulder_to_wrist distance 0.001030 within range (0.001, 0.002)
+INFO - cobra_pose: hip_to_knee distance 0.000119 within range (0.0001, 0.001)
+WARNING - cobra_pose: shoulder_to_hip distance 0.001731 out of range (0.0001, 0.001)
+INFO - cobra_pose: hip_to_ankle distance 0.000119 within range (0.0001, 0.0025)
+INFO - cobra_pose: correct - 7/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_0.jpg
+INFO - Total keypoints detected for Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_0.jpg: 33
+INFO - Keypoint 25 removed due to low visibility: 0.010026919655501842
+INFO - Keypoint 27 removed due to low visibility: 0.018679331988096237
+INFO - Keypoint 29 removed due to low visibility: 0.04283687472343445
+INFO - Keypoint 31 removed due to low visibility: 0.011541709303855896
+INFO - Keypoint 32 removed due to low visibility: 0.04321109130978584
+INFO - Filtered Keypoints Length: 112
+WARNING - Insufficient keypoints for Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_0.jpg. Attempting to impute missing keypoints.
+INFO - Imputed keypoint 28: [0.00035329109856060574, 0.003292421411190714, 0.47166702151298523, 0.0]
+INFO - Imputed keypoint 29: [0.00035329109856060574, 0.003292421411190714, 0.47166702151298523, 0.0]
+INFO - Imputed keypoint 30: [0.00035329109856060574, 0.003292421411190714, 0.47166702151298523, 0.0]
+INFO - Imputed keypoint 31: [0.00035329109856060574, 0.003292421411190714, 0.47166702151298523, 0.0]
+INFO - Imputed keypoint 32: [0.00035329109856060574, 0.003292421411190714, 0.47166702151298523, 0.0]
+INFO - Calculated angle for left_elbow: 174.7431042415774 degrees
+INFO - Calculated angle for right_elbow: 170.00981834016204 degrees
+INFO - Calculated angle for left_knee: 115.46649179250353 degrees
+INFO - Calculated angle for right_knee: 55.50889313669863 degrees
+INFO - Calculated angle for left_shoulder: 89.68652003634321 degrees
+INFO - Calculated angle for right_shoulder: 77.66138463029142 degrees
+INFO - Calculated angle for left_ankle: nan degrees
+INFO - Calculated angle for right_ankle: nan degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0003902158259053774
+INFO - Calculated distance for hip_to_knee: 9.411335843857683e-05
+INFO - Calculated distance for shoulder_to_hip: 0.0008174980126150109
+INFO - Calculated distance for hip_to_ankle: 0.00014946391484795237
+INFO - bridge_pose: left_elbow angle 174.74 within range (130, 190)
+INFO - bridge_pose: right_elbow angle 170.01 within range (130, 190)
+WARNING - bridge_pose: left_knee angle 115.47 out of range (30, 100)
+INFO - bridge_pose: right_knee angle 55.51 within range (30, 100)
+WARNING - bridge_pose: left_ankle angle nan out of range (50, 180)
+WARNING - bridge_pose: right_ankle angle nan out of range (50, 180)
+WARNING - bridge_pose: left_shoulder angle 89.69 out of range (100, 180)
+WARNING - bridge_pose: right_shoulder angle 77.66 out of range (100, 180)
+WARNING - bridge_pose: shoulder_to_wrist distance 0.000390 out of range (0.001, 0.003)
+WARNING - bridge_pose: hip_to_knee distance 0.000094 out of range (0.0001, 0.002)
+WARNING - bridge_pose: shoulder_to_hip distance 0.000817 out of range (0.001, 0.003)
+WARNING - bridge_pose: hip_to_ankle distance 0.000149 out of range (0.0005, 0.0015)
+INFO - bridge_pose: incorrect - 4/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_1.jpg
+INFO - Total keypoints detected for Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_1.jpg: 33
+INFO - Keypoint 13 removed due to low visibility: 0.018455663695931435
+INFO - Keypoint 15 removed due to low visibility: 0.035314589738845825
+INFO - Keypoint 17 removed due to low visibility: 0.04804222285747528
+INFO - Keypoint 19 removed due to low visibility: 0.047605521976947784
+INFO - Keypoint 28 removed due to low visibility: 0.04152693226933479
+INFO - Keypoint 32 removed due to low visibility: 0.031152190640568733
+INFO - Filtered Keypoints Length: 108
+WARNING - Insufficient keypoints for Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_1.jpg. Attempting to impute missing keypoints.
+INFO - Imputed keypoint 27: [0.002189436661345618, 0.003725523129105568, 0.270258367061615, 0.0]
+INFO - Imputed keypoint 28: [0.002189436661345618, 0.003725523129105568, 0.270258367061615, 0.0]
+INFO - Imputed keypoint 29: [0.002189436661345618, 0.003725523129105568, 0.270258367061615, 0.0]
+INFO - Imputed keypoint 30: [0.002189436661345618, 0.003725523129105568, 0.270258367061615, 0.0]
+INFO - Imputed keypoint 31: [0.002189436661345618, 0.003725523129105568, 0.270258367061615, 0.0]
+INFO - Imputed keypoint 32: [0.002189436661345618, 0.003725523129105568, 0.270258367061615, 0.0]
+INFO - Calculated angle for left_elbow: 129.58459056301754 degrees
+INFO - Calculated angle for right_elbow: 158.65843884573678 degrees
+INFO - Calculated angle for left_knee: 36.92069416721162 degrees
+INFO - Calculated angle for right_knee: nan degrees
+INFO - Calculated angle for left_shoulder: 37.226559983959916 degrees
+INFO - Calculated angle for right_shoulder: 62.92137404237599 degrees
+INFO - Calculated angle for left_ankle: nan degrees
+INFO - Calculated angle for right_ankle: nan degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0013600510320234762
+INFO - Calculated distance for hip_to_knee: 0.00018587848056814292
+INFO - Calculated distance for shoulder_to_hip: 0.0011685019438029166
+INFO - Calculated distance for hip_to_ankle: 0.0002429892247185013
+WARNING - bridge_pose: left_elbow angle 129.58 out of range (130, 190)
+INFO - bridge_pose: right_elbow angle 158.66 within range (130, 190)
+INFO - bridge_pose: left_knee angle 36.92 within range (30, 100)
+WARNING - bridge_pose: right_knee angle nan out of range (30, 100)
+WARNING - bridge_pose: left_ankle angle nan out of range (50, 180)
+WARNING - bridge_pose: right_ankle angle nan out of range (50, 180)
+WARNING - bridge_pose: left_shoulder angle 37.23 out of range (100, 180)
+WARNING - bridge_pose: right_shoulder angle 62.92 out of range (100, 180)
+INFO - bridge_pose: shoulder_to_wrist distance 0.001360 within range (0.001, 0.003)
+INFO - bridge_pose: hip_to_knee distance 0.000186 within range (0.0001, 0.002)
+INFO - bridge_pose: shoulder_to_hip distance 0.001169 within range (0.001, 0.003)
+WARNING - bridge_pose: hip_to_ankle distance 0.000243 out of range (0.0005, 0.0015)
+INFO - bridge_pose: incorrect - 6/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_2.jpg
+INFO - Total keypoints detected for Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_2.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 22.959149172927194 degrees
+INFO - Calculated angle for right_elbow: 177.2054858881258 degrees
+INFO - Calculated angle for left_knee: 85.07809155410293 degrees
+INFO - Calculated angle for right_knee: 173.79802829326962 degrees
+INFO - Calculated angle for left_shoulder: 177.25774065257838 degrees
+INFO - Calculated angle for right_shoulder: 107.03856202561087 degrees
+INFO - Calculated angle for left_ankle: 137.16812965896045 degrees
+INFO - Calculated angle for right_ankle: 140.73981412749603 degrees
+INFO - Calculated distance for shoulder_to_wrist: 5.4227598547058774e-05
+INFO - Calculated distance for hip_to_knee: 0.0008395481371325902
+INFO - Calculated distance for shoulder_to_hip: 0.0011662993985718895
+INFO - Calculated distance for hip_to_ankle: 0.0011359878338312983
+WARNING - bridge_pose: left_elbow angle 22.96 out of range (130, 190)
+INFO - bridge_pose: right_elbow angle 177.21 within range (130, 190)
+INFO - bridge_pose: left_knee angle 85.08 within range (30, 100)
+WARNING - bridge_pose: right_knee angle 173.80 out of range (30, 100)
+INFO - bridge_pose: left_ankle angle 137.17 within range (50, 180)
+INFO - bridge_pose: right_ankle angle 140.74 within range (50, 180)
+INFO - bridge_pose: left_shoulder angle 177.26 within range (100, 180)
+INFO - bridge_pose: right_shoulder angle 107.04 within range (100, 180)
+WARNING - bridge_pose: shoulder_to_wrist distance 0.000054 out of range (0.001, 0.003)
+INFO - bridge_pose: hip_to_knee distance 0.000840 within range (0.0001, 0.002)
+INFO - bridge_pose: shoulder_to_hip distance 0.001166 within range (0.001, 0.003)
+INFO - bridge_pose: hip_to_ankle distance 0.001136 within range (0.0005, 0.0015)
+INFO - bridge_pose: correct - 10/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Warrior_I_Pose_or_Virabhadrasana_I__images_0.jpg
+INFO - Total keypoints detected for Warrior_I_Pose_or_Virabhadrasana_I__images_0.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 164.14547411649187 degrees
+INFO - Calculated angle for right_elbow: 161.73056592225333 degrees
+INFO - Calculated angle for left_knee: 109.63111188659694 degrees
+INFO - Calculated angle for right_knee: 96.57925740477489 degrees
+INFO - Calculated angle for left_shoulder: 29.14880571597511 degrees
+INFO - Calculated angle for right_shoulder: 9.37516556391846 degrees
+INFO - Calculated angle for left_ankle: 143.7100969511146 degrees
+INFO - Calculated angle for right_ankle: 136.98169566167977 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0009927957319915313
+INFO - Calculated distance for hip_to_knee: 0.0008087524289651903
+INFO - Calculated distance for shoulder_to_hip: 0.001068236366866464
+INFO - Calculated distance for hip_to_ankle: 0.0014249083478502613
+INFO - warrior_pose: left_elbow angle 164.15 within range (110, 180)
+INFO - warrior_pose: right_elbow angle 161.73 within range (110, 180)
+INFO - warrior_pose: left_knee angle 109.63 within range (80, 170)
+INFO - warrior_pose: right_knee angle 96.58 within range (80, 170)
+INFO - warrior_pose: left_ankle angle 143.71 within range (110, 180)
+INFO - warrior_pose: right_ankle angle 136.98 within range (110, 180)
+INFO - warrior_pose: left_shoulder angle 29.15 within range (0, 140)
+INFO - warrior_pose: right_shoulder angle 9.38 within range (0, 140)
+WARNING - warrior_pose: shoulder_to_wrist distance 0.000993 out of range (0.001, 0.0013)
+INFO - warrior_pose: hip_to_knee distance 0.000809 within range (0.0001, 0.001)
+WARNING - warrior_pose: shoulder_to_hip distance 0.001068 out of range (0.0001, 0.001)
+INFO - warrior_pose: hip_to_ankle distance 0.001425 within range (0.0005, 0.0015)
+INFO - warrior_pose: correct - 10/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Warrior_I_Pose_or_Virabhadrasana_I__images_1.jpg
+INFO - Total keypoints detected for Warrior_I_Pose_or_Virabhadrasana_I__images_1.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 171.64107523332643 degrees
+INFO - Calculated angle for right_elbow: 172.2610106168385 degrees
+INFO - Calculated angle for left_knee: 176.37466024936023 degrees
+INFO - Calculated angle for right_knee: 113.61421524275973 degrees
+INFO - Calculated angle for left_shoulder: 172.7654078847345 degrees
+INFO - Calculated angle for right_shoulder: 138.37149324847496 degrees
+INFO - Calculated angle for left_ankle: 172.6037449698989 degrees
+INFO - Calculated angle for right_ankle: 145.0702032391032 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.001388615590748085
+INFO - Calculated distance for hip_to_knee: 0.0009522884927646882
+INFO - Calculated distance for shoulder_to_hip: 0.001143145120221308
+INFO - Calculated distance for hip_to_ankle: 0.0019233898331665659
+INFO - warrior_pose: left_elbow angle 171.64 within range (110, 180)
+INFO - warrior_pose: right_elbow angle 172.26 within range (110, 180)
+WARNING - warrior_pose: left_knee angle 176.37 out of range (80, 170)
+INFO - warrior_pose: right_knee angle 113.61 within range (80, 170)
+INFO - warrior_pose: left_ankle angle 172.60 within range (110, 180)
+INFO - warrior_pose: right_ankle angle 145.07 within range (110, 180)
+WARNING - warrior_pose: left_shoulder angle 172.77 out of range (0, 140)
+INFO - warrior_pose: right_shoulder angle 138.37 within range (0, 140)
+WARNING - warrior_pose: shoulder_to_wrist distance 0.001389 out of range (0.001, 0.0013)
+INFO - warrior_pose: hip_to_knee distance 0.000952 within range (0.0001, 0.001)
+WARNING - warrior_pose: shoulder_to_hip distance 0.001143 out of range (0.0001, 0.001)
+WARNING - warrior_pose: hip_to_ankle distance 0.001923 out of range (0.0005, 0.0015)
+INFO - warrior_pose: correct - 7/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Warrior_I_Pose_or_Virabhadrasana_I__images_2.jpg
+INFO - Total keypoints detected for Warrior_I_Pose_or_Virabhadrasana_I__images_2.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 173.8341457393727 degrees
+INFO - Calculated angle for right_elbow: 174.005375611519 degrees
+INFO - Calculated angle for left_knee: 129.44775894587644 degrees
+INFO - Calculated angle for right_knee: 173.8520839479226 degrees
+INFO - Calculated angle for left_shoulder: 129.67182556385873 degrees
+INFO - Calculated angle for right_shoulder: 148.03067800748795 degrees
+INFO - Calculated angle for left_ankle: 151.4767049980605 degrees
+INFO - Calculated angle for right_ankle: 130.35286656146604 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0013938122560107932
+INFO - Calculated distance for hip_to_knee: 0.0010187335592403745
+INFO - Calculated distance for shoulder_to_hip: 0.0012428611432446545
+INFO - Calculated distance for hip_to_ankle: 0.0018951218634071937
+INFO - warrior_pose: left_elbow angle 173.83 within range (110, 180)
+INFO - warrior_pose: right_elbow angle 174.01 within range (110, 180)
+INFO - warrior_pose: left_knee angle 129.45 within range (80, 170)
+WARNING - warrior_pose: right_knee angle 173.85 out of range (80, 170)
+INFO - warrior_pose: left_ankle angle 151.48 within range (110, 180)
+INFO - warrior_pose: right_ankle angle 130.35 within range (110, 180)
+INFO - warrior_pose: left_shoulder angle 129.67 within range (0, 140)
+WARNING - warrior_pose: right_shoulder angle 148.03 out of range (0, 140)
+WARNING - warrior_pose: shoulder_to_wrist distance 0.001394 out of range (0.001, 0.0013)
+WARNING - warrior_pose: hip_to_knee distance 0.001019 out of range (0.0001, 0.001)
+WARNING - warrior_pose: shoulder_to_hip distance 0.001243 out of range (0.0001, 0.001)
+WARNING - warrior_pose: hip_to_ankle distance 0.001895 out of range (0.0005, 0.0015)
+INFO - warrior_pose: incorrect - 6/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Warrior_I_Pose_or_Virabhadrasana_I__images_3.jpg
+INFO - Total keypoints detected for Warrior_I_Pose_or_Virabhadrasana_I__images_3.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 175.07774956982377 degrees
+INFO - Calculated angle for right_elbow: 172.94294984297622 degrees
+INFO - Calculated angle for left_knee: 128.38226981208007 degrees
+INFO - Calculated angle for right_knee: 173.32003379644593 degrees
+INFO - Calculated angle for left_shoulder: 128.4460738737925 degrees
+INFO - Calculated angle for right_shoulder: 153.68628934688257 degrees
+INFO - Calculated angle for left_ankle: 147.64361281485424 degrees
+INFO - Calculated angle for right_ankle: 130.60343278186434 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0014063409945180316
+INFO - Calculated distance for hip_to_knee: 0.0009617941522879643
+INFO - Calculated distance for shoulder_to_hip: 0.0012056705762072946
+INFO - Calculated distance for hip_to_ankle: 0.0018189301773781038
+INFO - warrior_pose: left_elbow angle 175.08 within range (110, 180)
+INFO - warrior_pose: right_elbow angle 172.94 within range (110, 180)
+INFO - warrior_pose: left_knee angle 128.38 within range (80, 170)
+WARNING - warrior_pose: right_knee angle 173.32 out of range (80, 170)
+INFO - warrior_pose: left_ankle angle 147.64 within range (110, 180)
+INFO - warrior_pose: right_ankle angle 130.60 within range (110, 180)
+INFO - warrior_pose: left_shoulder angle 128.45 within range (0, 140)
+WARNING - warrior_pose: right_shoulder angle 153.69 out of range (0, 140)
+WARNING - warrior_pose: shoulder_to_wrist distance 0.001406 out of range (0.001, 0.0013)
+INFO - warrior_pose: hip_to_knee distance 0.000962 within range (0.0001, 0.001)
+WARNING - warrior_pose: shoulder_to_hip distance 0.001206 out of range (0.0001, 0.001)
+WARNING - warrior_pose: hip_to_ankle distance 0.001819 out of range (0.0005, 0.0015)
+INFO - warrior_pose: correct - 7/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Warrior_I_Pose_or_Virabhadrasana_I__images_4.jpg
+INFO - Total keypoints detected for Warrior_I_Pose_or_Virabhadrasana_I__images_4.jpg: 33
+INFO - Keypoint 13 removed due to low visibility: 0.03463232144713402
+INFO - Filtered Keypoints Length: 128
+WARNING - Insufficient keypoints for Warrior_I_Pose_or_Virabhadrasana_I__images_4.jpg. Attempting to impute missing keypoints.
+INFO - Imputed keypoint 32: [0.004147098532744816, 0.004101318174174854, -0.10600482672452927, 0.0]
+INFO - Calculated angle for left_elbow: 128.05885859447926 degrees
+INFO - Calculated angle for right_elbow: 171.3952834775289 degrees
+INFO - Calculated angle for left_knee: 116.19953811516044 degrees
+INFO - Calculated angle for right_knee: 157.34584684456922 degrees
+INFO - Calculated angle for left_shoulder: 1.5353326303458206 degrees
+INFO - Calculated angle for right_shoulder: 15.988435367791475 degrees
+INFO - Calculated angle for left_ankle: 146.0366774279856 degrees
+INFO - Calculated angle for right_ankle: 155.32934457470614 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0012117153655800924
+INFO - Calculated distance for hip_to_knee: 0.0010753288145703979
+INFO - Calculated distance for shoulder_to_hip: 0.0011157722667129286
+INFO - Calculated distance for hip_to_ankle: 0.0017068187592850326
+INFO - warrior_pose: left_elbow angle 128.06 within range (110, 180)
+INFO - warrior_pose: right_elbow angle 171.40 within range (110, 180)
+INFO - warrior_pose: left_knee angle 116.20 within range (80, 170)
+INFO - warrior_pose: right_knee angle 157.35 within range (80, 170)
+INFO - warrior_pose: left_ankle angle 146.04 within range (110, 180)
+INFO - warrior_pose: right_ankle angle 155.33 within range (110, 180)
+INFO - warrior_pose: left_shoulder angle 1.54 within range (0, 140)
+INFO - warrior_pose: right_shoulder angle 15.99 within range (0, 140)
+INFO - warrior_pose: shoulder_to_wrist distance 0.001212 within range (0.001, 0.0013)
+WARNING - warrior_pose: hip_to_knee distance 0.001075 out of range (0.0001, 0.001)
+WARNING - warrior_pose: shoulder_to_hip distance 0.001116 out of range (0.0001, 0.001)
+WARNING - warrior_pose: hip_to_ankle distance 0.001707 out of range (0.0005, 0.0015)
+INFO - warrior_pose: correct - 9/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Tree_Pose_or_Vrksasana__images_0.jpg
+INFO - Total keypoints detected for Tree_Pose_or_Vrksasana__images_0.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 164.14547411649187 degrees
+INFO - Calculated angle for right_elbow: 161.73056592225333 degrees
+INFO - Calculated angle for left_knee: 109.63111188659694 degrees
+INFO - Calculated angle for right_knee: 96.57925740477489 degrees
+INFO - Calculated angle for left_shoulder: 29.14880571597511 degrees
+INFO - Calculated angle for right_shoulder: 9.37516556391846 degrees
+INFO - Calculated angle for left_ankle: 143.7100969511146 degrees
+INFO - Calculated angle for right_ankle: 136.98169566167977 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0009927957319915313
+INFO - Calculated distance for hip_to_knee: 0.0008087524289651903
+INFO - Calculated distance for shoulder_to_hip: 0.001068236366866464
+INFO - Calculated distance for hip_to_ankle: 0.0014249083478502613
+INFO - tree_pose: left_elbow angle 164.15 within range (120, 170)
+INFO - tree_pose: right_elbow angle 161.73 within range (120, 170)
+WARNING - tree_pose: left_knee angle 109.63 out of range (5, 90)
+WARNING - tree_pose: right_knee angle 96.58 out of range (160, 180)
+WARNING - tree_pose: left_shoulder angle 29.15 out of range (30, 70)
+WARNING - tree_pose: right_shoulder angle 9.38 out of range (30, 70)
+INFO - tree_pose: left_ankle angle 143.71 within range (140, 170)
+WARNING - tree_pose: right_ankle angle 136.98 out of range (140, 170)
+INFO - tree_pose: shoulder_to_wrist distance 0.000993 within range (0.0007, 0.0014)
+INFO - tree_pose: hip_to_knee distance 0.000809 within range (0.0005, 0.001)
+INFO - tree_pose: incorrect - 5/10 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Tree_Pose_or_Vrksasana__images_1.jpg
+INFO - Total keypoints detected for Tree_Pose_or_Vrksasana__images_1.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 177.59498812570166 degrees
+INFO - Calculated angle for right_elbow: 163.07416926091253 degrees
+INFO - Calculated angle for left_knee: 152.55000381730432 degrees
+INFO - Calculated angle for right_knee: 170.0866939559395 degrees
+INFO - Calculated angle for left_shoulder: 45.10862621277248 degrees
+INFO - Calculated angle for right_shoulder: 0.6498891069585679 degrees
+INFO - Calculated angle for left_ankle: 153.44606082592045 degrees
+INFO - Calculated angle for right_ankle: 151.462886892769 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0007497202647172332
+INFO - Calculated distance for hip_to_knee: 0.0007658491017005112
+INFO - Calculated distance for shoulder_to_hip: 0.0010041796418933378
+INFO - Calculated distance for hip_to_ankle: 0.0012986255118110845
+WARNING - tree_pose: left_elbow angle 177.59 out of range (120, 170)
+INFO - tree_pose: right_elbow angle 163.07 within range (120, 170)
+WARNING - tree_pose: left_knee angle 152.55 out of range (5, 90)
+INFO - tree_pose: right_knee angle 170.09 within range (160, 180)
+INFO - tree_pose: left_shoulder angle 45.11 within range (30, 70)
+WARNING - tree_pose: right_shoulder angle 0.65 out of range (30, 70)
+INFO - tree_pose: left_ankle angle 153.45 within range (140, 170)
+INFO - tree_pose: right_ankle angle 151.46 within range (140, 170)
+INFO - tree_pose: shoulder_to_wrist distance 0.000750 within range (0.0007, 0.0014)
+INFO - tree_pose: hip_to_knee distance 0.000766 within range (0.0005, 0.001)
+INFO - tree_pose: correct - 8/10 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Tree_Pose_or_Vrksasana__images_2.jpg
+INFO - Total keypoints detected for Tree_Pose_or_Vrksasana__images_2.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 105.1824950303644 degrees
+INFO - Calculated angle for right_elbow: 37.44799768740245 degrees
+INFO - Calculated angle for left_knee: 178.24074434393387 degrees
+INFO - Calculated angle for right_knee: 172.78861045346093 degrees
+INFO - Calculated angle for left_shoulder: 84.95606966418244 degrees
+INFO - Calculated angle for right_shoulder: 111.81762178562077 degrees
+INFO - Calculated angle for left_ankle: 153.10265801855175 degrees
+INFO - Calculated angle for right_ankle: 157.88202063601202 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0006009004351908701
+INFO - Calculated distance for hip_to_knee: 0.0008571495746080273
+INFO - Calculated distance for shoulder_to_hip: 0.0009424789166180402
+INFO - Calculated distance for hip_to_ankle: 0.001685535240115922
+WARNING - tree_pose: left_elbow angle 105.18 out of range (120, 170)
+WARNING - tree_pose: right_elbow angle 37.45 out of range (120, 170)
+WARNING - tree_pose: left_knee angle 178.24 out of range (5, 90)
+INFO - tree_pose: right_knee angle 172.79 within range (160, 180)
+WARNING - tree_pose: left_shoulder angle 84.96 out of range (30, 70)
+WARNING - tree_pose: right_shoulder angle 111.82 out of range (30, 70)
+INFO - tree_pose: left_ankle angle 153.10 within range (140, 170)
+INFO - tree_pose: right_ankle angle 157.88 within range (140, 170)
+WARNING - tree_pose: shoulder_to_wrist distance 0.000601 out of range (0.0007, 0.0014)
+INFO - tree_pose: hip_to_knee distance 0.000857 within range (0.0005, 0.001)
+INFO - tree_pose: incorrect - 5/10 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Tree_Pose_or_Vrksasana__images_3.jpg
+INFO - Total keypoints detected for Tree_Pose_or_Vrksasana__images_3.jpg: 33
+INFO - Keypoint 14 removed due to low visibility: 0.041064754128456116
+INFO - Filtered Keypoints Length: 128
+WARNING - Insufficient keypoints for Tree_Pose_or_Vrksasana__images_3.jpg. Attempting to impute missing keypoints.
+INFO - Imputed keypoint 32: [0.002387543075851032, 0.0016047369156564986, -0.921264111995697, 0.0]
+INFO - Calculated angle for left_elbow: 147.70941998781876 degrees
+INFO - Calculated angle for right_elbow: 48.78899156696197 degrees
+INFO - Calculated angle for left_knee: 14.680457526588908 degrees
+INFO - Calculated angle for right_knee: 167.8016940590484 degrees
+INFO - Calculated angle for left_shoulder: 125.77887442398625 degrees
+INFO - Calculated angle for right_shoulder: 104.52313536489426 degrees
+INFO - Calculated angle for left_ankle: 174.40571421928252 degrees
+INFO - Calculated angle for right_ankle: 110.61302176248648 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.001270113927787321
+INFO - Calculated distance for hip_to_knee: 0.0007144285761473302
+INFO - Calculated distance for shoulder_to_hip: 0.001113185591024846
+INFO - Calculated distance for hip_to_ankle: 0.00024268531934309943
+INFO - tree_pose: left_elbow angle 147.71 within range (120, 170)
+WARNING - tree_pose: right_elbow angle 48.79 out of range (120, 170)
+INFO - tree_pose: left_knee angle 14.68 within range (5, 90)
+INFO - tree_pose: right_knee angle 167.80 within range (160, 180)
+WARNING - tree_pose: left_shoulder angle 125.78 out of range (30, 70)
+WARNING - tree_pose: right_shoulder angle 104.52 out of range (30, 70)
+WARNING - tree_pose: left_ankle angle 174.41 out of range (140, 170)
+WARNING - tree_pose: right_ankle angle 110.61 out of range (140, 170)
+INFO - tree_pose: shoulder_to_wrist distance 0.001270 within range (0.0007, 0.0014)
+INFO - tree_pose: hip_to_knee distance 0.000714 within range (0.0005, 0.001)
+INFO - tree_pose: incorrect - 6/10 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Tree_Pose_or_Vrksasana__images_4.jpg
+INFO - Total keypoints detected for Tree_Pose_or_Vrksasana__images_4.jpg: 33
+INFO - Keypoint 13 removed due to low visibility: 0.03463232144713402
+INFO - Filtered Keypoints Length: 128
+WARNING - Insufficient keypoints for Tree_Pose_or_Vrksasana__images_4.jpg. Attempting to impute missing keypoints.
+INFO - Imputed keypoint 32: [0.004147098532744816, 0.004101318174174854, -0.10600482672452927, 0.0]
+INFO - Calculated angle for left_elbow: 128.05885859447926 degrees
+INFO - Calculated angle for right_elbow: 171.3952834775289 degrees
+INFO - Calculated angle for left_knee: 116.19953811516044 degrees
+INFO - Calculated angle for right_knee: 157.34584684456922 degrees
+INFO - Calculated angle for left_shoulder: 1.5353326303458206 degrees
+INFO - Calculated angle for right_shoulder: 15.988435367791475 degrees
+INFO - Calculated angle for left_ankle: 146.0366774279856 degrees
+INFO - Calculated angle for right_ankle: 155.32934457470614 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0012117153655800924
+INFO - Calculated distance for hip_to_knee: 0.0010753288145703979
+INFO - Calculated distance for shoulder_to_hip: 0.0011157722667129286
+INFO - Calculated distance for hip_to_ankle: 0.0017068187592850326
+INFO - tree_pose: left_elbow angle 128.06 within range (120, 170)
+WARNING - tree_pose: right_elbow angle 171.40 out of range (120, 170)
+WARNING - tree_pose: left_knee angle 116.20 out of range (5, 90)
+WARNING - tree_pose: right_knee angle 157.35 out of range (160, 180)
+WARNING - tree_pose: left_shoulder angle 1.54 out of range (30, 70)
+WARNING - tree_pose: right_shoulder angle 15.99 out of range (30, 70)
+INFO - tree_pose: left_ankle angle 146.04 within range (140, 170)
+INFO - tree_pose: right_ankle angle 155.33 within range (140, 170)
+INFO - tree_pose: shoulder_to_wrist distance 0.001212 within range (0.0007, 0.0014)
+WARNING - tree_pose: hip_to_knee distance 0.001075 out of range (0.0005, 0.001)
+INFO - tree_pose: incorrect - 4/10 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Seated_Forward_Bend_pose_or_Paschimottanasana__images_0.jpg
+INFO - Total keypoints detected for Seated_Forward_Bend_pose_or_Paschimottanasana__images_0.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 164.14547411649187 degrees
+INFO - Calculated angle for right_elbow: 161.73056592225333 degrees
+INFO - Calculated angle for left_knee: 109.63111188659694 degrees
+INFO - Calculated angle for right_knee: 96.57925740477489 degrees
+INFO - Calculated angle for left_shoulder: 29.14880571597511 degrees
+INFO - Calculated angle for right_shoulder: 9.37516556391846 degrees
+INFO - Calculated angle for left_ankle: 143.7100969511146 degrees
+INFO - Calculated angle for right_ankle: 136.98169566167977 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0009927957319915313
+INFO - Calculated distance for hip_to_knee: 0.0008087524289651903
+INFO - Calculated distance for shoulder_to_hip: 0.001068236366866464
+INFO - Calculated distance for hip_to_ankle: 0.0014249083478502613
+INFO - seated_pose: left_elbow angle 164.15 within range (110, 180)
+INFO - seated_pose: right_elbow angle 161.73 within range (110, 180)
+INFO - seated_pose: left_knee angle 109.63 within range (80, 170)
+INFO - seated_pose: right_knee angle 96.58 within range (80, 170)
+INFO - seated_pose: left_ankle angle 143.71 within range (110, 180)
+INFO - seated_pose: right_ankle angle 136.98 within range (110, 180)
+INFO - seated_pose: left_shoulder angle 29.15 within range (0, 140)
+INFO - seated_pose: right_shoulder angle 9.38 within range (0, 140)
+WARNING - seated_pose: shoulder_to_wrist distance 0.000993 out of range (0.001, 0.0013)
+INFO - seated_pose: hip_to_knee distance 0.000809 within range (0.0001, 0.001)
+WARNING - seated_pose: shoulder_to_hip distance 0.001068 out of range (0.0001, 0.001)
+INFO - seated_pose: hip_to_ankle distance 0.001425 within range (0.0005, 0.0015)
+INFO - seated_pose: correct - 10/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Seated_Forward_Bend_pose_or_Paschimottanasana__images_1.jpg
+INFO - Total keypoints detected for Seated_Forward_Bend_pose_or_Paschimottanasana__images_1.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 161.5488488193065 degrees
+INFO - Calculated angle for right_elbow: 156.5797990965097 degrees
+INFO - Calculated angle for left_knee: 176.38364883965218 degrees
+INFO - Calculated angle for right_knee: 178.55333520467596 degrees
+INFO - Calculated angle for left_shoulder: 70.53406862650515 degrees
+INFO - Calculated angle for right_shoulder: 63.217806330334575 degrees
+INFO - Calculated angle for left_ankle: 162.10212415020592 degrees
+INFO - Calculated angle for right_ankle: 73.01242121885065 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0017117541409609636
+INFO - Calculated distance for hip_to_knee: 0.0012727500381734143
+INFO - Calculated distance for shoulder_to_hip: 0.0014858822389550127
+INFO - Calculated distance for hip_to_ankle: 0.00250303569335051
+INFO - seated_pose: left_elbow angle 161.55 within range (110, 180)
+INFO - seated_pose: right_elbow angle 156.58 within range (110, 180)
+WARNING - seated_pose: left_knee angle 176.38 out of range (80, 170)
+WARNING - seated_pose: right_knee angle 178.55 out of range (80, 170)
+INFO - seated_pose: left_ankle angle 162.10 within range (110, 180)
+WARNING - seated_pose: right_ankle angle 73.01 out of range (110, 180)
+INFO - seated_pose: left_shoulder angle 70.53 within range (0, 140)
+INFO - seated_pose: right_shoulder angle 63.22 within range (0, 140)
+WARNING - seated_pose: shoulder_to_wrist distance 0.001712 out of range (0.001, 0.0013)
+WARNING - seated_pose: hip_to_knee distance 0.001273 out of range (0.0001, 0.001)
+WARNING - seated_pose: shoulder_to_hip distance 0.001486 out of range (0.0001, 0.001)
+WARNING - seated_pose: hip_to_ankle distance 0.002503 out of range (0.0005, 0.0015)
+INFO - seated_pose: incorrect - 5/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Seated_Forward_Bend_pose_or_Paschimottanasana__images_2.jpg
+INFO - Total keypoints detected for Seated_Forward_Bend_pose_or_Paschimottanasana__images_2.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 145.87445626202646 degrees
+INFO - Calculated angle for right_elbow: 141.93420820020737 degrees
+INFO - Calculated angle for left_knee: 173.39813991945095 degrees
+INFO - Calculated angle for right_knee: 178.6319302276402 degrees
+INFO - Calculated angle for left_shoulder: 25.771655509504132 degrees
+INFO - Calculated angle for right_shoulder: 52.40639294882257 degrees
+INFO - Calculated angle for left_ankle: 142.62006082166113 degrees
+INFO - Calculated angle for right_ankle: 147.98704670187792 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0015445946293654272
+INFO - Calculated distance for hip_to_knee: 0.0011843333636566032
+INFO - Calculated distance for shoulder_to_hip: 0.0012385364076114328
+INFO - Calculated distance for hip_to_ankle: 0.0026089206938778417
+INFO - seated_pose: left_elbow angle 145.87 within range (110, 180)
+INFO - seated_pose: right_elbow angle 141.93 within range (110, 180)
+WARNING - seated_pose: left_knee angle 173.40 out of range (80, 170)
+WARNING - seated_pose: right_knee angle 178.63 out of range (80, 170)
+INFO - seated_pose: left_ankle angle 142.62 within range (110, 180)
+INFO - seated_pose: right_ankle angle 147.99 within range (110, 180)
+INFO - seated_pose: left_shoulder angle 25.77 within range (0, 140)
+INFO - seated_pose: right_shoulder angle 52.41 within range (0, 140)
+WARNING - seated_pose: shoulder_to_wrist distance 0.001545 out of range (0.001, 0.0013)
+WARNING - seated_pose: hip_to_knee distance 0.001184 out of range (0.0001, 0.001)
+WARNING - seated_pose: shoulder_to_hip distance 0.001239 out of range (0.0001, 0.001)
+WARNING - seated_pose: hip_to_ankle distance 0.002609 out of range (0.0005, 0.0015)
+INFO - seated_pose: incorrect - 6/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Seated_Forward_Bend_pose_or_Paschimottanasana__images_3.jpg
+INFO - Total keypoints detected for Seated_Forward_Bend_pose_or_Paschimottanasana__images_3.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 169.5166758066111 degrees
+INFO - Calculated angle for right_elbow: 162.13218416264516 degrees
+INFO - Calculated angle for left_knee: 172.5652859877298 degrees
+INFO - Calculated angle for right_knee: 177.14724974785292 degrees
+INFO - Calculated angle for left_shoulder: 51.79408357954545 degrees
+INFO - Calculated angle for right_shoulder: 79.57558181498933 degrees
+INFO - Calculated angle for left_ankle: 157.09661706460608 degrees
+INFO - Calculated angle for right_ankle: 148.82015409925597 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.0018541679991893932
+INFO - Calculated distance for hip_to_knee: 0.0012796804703804384
+INFO - Calculated distance for shoulder_to_hip: 0.0014241912630776055
+INFO - Calculated distance for hip_to_ankle: 0.002614204132206643
+INFO - seated_pose: left_elbow angle 169.52 within range (110, 180)
+INFO - seated_pose: right_elbow angle 162.13 within range (110, 180)
+WARNING - seated_pose: left_knee angle 172.57 out of range (80, 170)
+WARNING - seated_pose: right_knee angle 177.15 out of range (80, 170)
+INFO - seated_pose: left_ankle angle 157.10 within range (110, 180)
+INFO - seated_pose: right_ankle angle 148.82 within range (110, 180)
+INFO - seated_pose: left_shoulder angle 51.79 within range (0, 140)
+INFO - seated_pose: right_shoulder angle 79.58 within range (0, 140)
+WARNING - seated_pose: shoulder_to_wrist distance 0.001854 out of range (0.001, 0.0013)
+WARNING - seated_pose: hip_to_knee distance 0.001280 out of range (0.0001, 0.001)
+WARNING - seated_pose: shoulder_to_hip distance 0.001424 out of range (0.0001, 0.001)
+WARNING - seated_pose: hip_to_ankle distance 0.002614 out of range (0.0005, 0.0015)
+INFO - seated_pose: incorrect - 6/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Seated_Forward_Bend_pose_or_Paschimottanasana__images_4.jpg
+INFO - Total keypoints detected for Seated_Forward_Bend_pose_or_Paschimottanasana__images_4.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 159.93476665071194 degrees
+INFO - Calculated angle for right_elbow: 153.12975043156678 degrees
+INFO - Calculated angle for left_knee: 154.9504247058093 degrees
+INFO - Calculated angle for right_knee: 171.41899396330595 degrees
+INFO - Calculated angle for left_shoulder: 119.2955544320277 degrees
+INFO - Calculated angle for right_shoulder: 91.50445046710523 degrees
+INFO - Calculated angle for left_ankle: 146.90116884988328 degrees
+INFO - Calculated angle for right_ankle: 143.6503717233634 degrees
+INFO - Calculated distance for shoulder_to_wrist: 0.00144429817088378
+INFO - Calculated distance for hip_to_knee: 0.001018412945856249
+INFO - Calculated distance for shoulder_to_hip: 0.0011926988052839882
+INFO - Calculated distance for hip_to_ankle: 0.0018465261125328015
+INFO - seated_pose: left_elbow angle 159.93 within range (110, 180)
+INFO - seated_pose: right_elbow angle 153.13 within range (110, 180)
+INFO - seated_pose: left_knee angle 154.95 within range (80, 170)
+WARNING - seated_pose: right_knee angle 171.42 out of range (80, 170)
+INFO - seated_pose: left_ankle angle 146.90 within range (110, 180)
+INFO - seated_pose: right_ankle angle 143.65 within range (110, 180)
+INFO - seated_pose: left_shoulder angle 119.30 within range (0, 140)
+INFO - seated_pose: right_shoulder angle 91.50 within range (0, 140)
+WARNING - seated_pose: shoulder_to_wrist distance 0.001444 out of range (0.001, 0.0013)
+WARNING - seated_pose: hip_to_knee distance 0.001018 out of range (0.0001, 0.001)
+WARNING - seated_pose: shoulder_to_hip distance 0.001193 out of range (0.0001, 0.001)
+WARNING - seated_pose: hip_to_ankle distance 0.001847 out of range (0.0005, 0.0015)
+INFO - seated_pose: correct - 7/12 valid checks
+INFO - --------------------------------------------------
+INFO - Processing file: Seated_Forward_Bend_pose_or_Paschimottanasana__images_5.jpg
+INFO - Total keypoints detected for Seated_Forward_Bend_pose_or_Paschimottanasana__images_5.jpg: 33
+INFO - Filtered Keypoints Length: 132
+INFO - Calculated angle for left_elbow: 22.959149172927194 degrees
+INFO - Calculated angle for right_elbow: 177.2054858881258 degrees
+INFO - Calculated angle for left_knee: 85.07809155410293 degrees
+INFO - Calculated angle for right_knee: 173.79802829326962 degrees
+INFO - Calculated angle for left_shoulder: 177.25774065257838 degrees
+INFO - Calculated angle for right_shoulder: 107.03856202561087 degrees
+INFO - Calculated angle for left_ankle: 137.16812965896045 degrees
+INFO - Calculated angle for right_ankle: 140.73981412749603 degrees
+INFO - Calculated distance for shoulder_to_wrist: 5.4227598547058774e-05
+INFO - Calculated distance for hip_to_knee: 0.0008395481371325902
+INFO - Calculated distance for shoulder_to_hip: 0.0011662993985718895
+INFO - Calculated distance for hip_to_ankle: 0.0011359878338312983
+WARNING - seated_pose: left_elbow angle 22.96 out of range (110, 180)
+INFO - seated_pose: right_elbow angle 177.21 within range (110, 180)
+INFO - seated_pose: left_knee angle 85.08 within range (80, 170)
+WARNING - seated_pose: right_knee angle 173.80 out of range (80, 170)
+INFO - seated_pose: left_ankle angle 137.17 within range (110, 180)
+INFO - seated_pose: right_ankle angle 140.74 within range (110, 180)
+WARNING - seated_pose: left_shoulder angle 177.26 out of range (0, 140)
+INFO - seated_pose: right_shoulder angle 107.04 within range (0, 140)
+WARNING - seated_pose: shoulder_to_wrist distance 0.000054 out of range (0.001, 0.0013)
+INFO - seated_pose: hip_to_knee distance 0.000840 within range (0.0001, 0.001)
+WARNING - seated_pose: shoulder_to_hip distance 0.001166 out of range (0.0001, 0.001)
+INFO - seated_pose: hip_to_ankle distance 0.001136 within range (0.0005, 0.0015)
+INFO - seated_pose: correct - 7/12 valid checks
+INFO - Feature engineering completed.
+INFO - ----------------------------------------------------------------------------------------------------
+INFO - Saving features to CSV...
+INFO - Features with labels saved to D:\SHU\Applied ai\Assesment\results\test\pose_features_with_labels.csv

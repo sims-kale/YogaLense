@@ -1,0 +1,106 @@
+INFO -  
+INFO - Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_0.jpg
+INFO - Predicted pose-- seated_forward_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_1.jpg
+INFO - Predicted pose-- cobra_pose
+INFO - Predicted correctness: incorrect
+INFO - Suggestion: Adjust your pose based on the angles and distances.
+INFO -  
+INFO - Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_2.jpg
+INFO - Predicted pose-- bridge_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Cobra_Pose_or_Bhujangasana__images_0.jpg
+INFO - Predicted pose-- cobra_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Cobra_Pose_or_Bhujangasana__images_1.jpg
+INFO - Predicted pose-- cobra_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Cobra_Pose_or_Bhujangasana__images_2.jpg
+INFO - Predicted pose-- seated_forward_pose
+WARNING - Feature vector not found for image: Cobra_Pose_or_Bhujangasana__images_2.jpg
+INFO -  
+INFO - Cobra_Pose_or_Bhujangasana__images_3.jpg
+INFO - Predicted pose-- seated_forward_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Cobra_Pose_or_Bhujangasana__images_4.jpg
+INFO - Predicted pose-- seated_forward_pose
+WARNING - Feature vector not found for image: Cobra_Pose_or_Bhujangasana__images_4.jpg
+INFO -  
+INFO - Cobra_Pose_or_Bhujangasana__images_5.jpg
+INFO - Predicted pose-- cobra_pose
+INFO - Predicted correctness: incorrect
+INFO - Suggestion: Adjust your pose based on the angles and distances.
+INFO -  
+INFO - Cobra_Pose_or_Bhujangasana__images_6.jpg
+INFO - Predicted pose-- seated_forward_pose
+WARNING - Feature vector not found for image: Cobra_Pose_or_Bhujangasana__images_6.jpg
+INFO -  
+INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_0.jpg
+INFO - Predicted pose-- seated_forward_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_1.jpg
+INFO - Predicted pose-- cobra_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_2.jpg
+INFO - Predicted pose-- seated_forward_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_3.jpg
+INFO - Predicted pose-- seated_forward_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_4.jpg
+INFO - Predicted pose-- cobra_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_5.jpg
+INFO - Predicted pose-- bridge_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Tree_Pose_or_Vrksasana__images_0.jpg
+INFO - Predicted pose-- seated_forward_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Tree_Pose_or_Vrksasana__images_1.jpg
+INFO - Predicted pose-- cobra_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Tree_Pose_or_Vrksasana__images_2.jpg
+INFO - Predicted pose-- seated_forward_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Tree_Pose_or_Vrksasana__images_3.jpg
+INFO - Predicted pose-- tree_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Tree_Pose_or_Vrksasana__images_4.jpg
+INFO - Predicted pose-- tree_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_0.jpg
+INFO - Predicted pose-- seated_forward_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_1.jpg
+INFO - Predicted pose-- cobra_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_2.jpg
+INFO - Predicted pose-- tree_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_3.jpg
+INFO - Predicted pose-- tree_pose
+INFO - Predicted correctness: correct
+INFO -  
+INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_4.jpg
+INFO - Predicted pose-- tree_pose
+INFO - Predicted correctness: correct

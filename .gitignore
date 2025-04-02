@@ -1,29 +1,16 @@
-# Ignore dataset and processed data
-dataset/
-filtered_data/
-non_filtered_data/
-archive/
-keypoints/
+__pycache__/
+*.pyc
+*.pyo
 
-training_dataset/
-testing_dataset/
-
-# Ignore model files
-
-models/correction_model_csv.pkl
-models/yoga_pose_recognition.keras
-model/class_indices.json
-
-
-# Ignore virtual environment
-yogalense/
-
-# Ignore IDE-specific files
-.idea/
-
-# Ignore logs and keypoints
-
+.DS_Store
 log_files/
 utils/logs/
+datasets/non_filtered
+datasets/processed
+models/class_indices.json
+models/correction_model_csv.pkl
+modles/yoga_pose_recognition.keras
+models/yolov8n.pt
+
 
 
