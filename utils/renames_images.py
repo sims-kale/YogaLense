@@ -4,7 +4,7 @@
 import os
 
 
-dataset_path = r"D:\SHU\Applied ai\Assesment\filtered_data"
+dataset_path = r"D:\SHU\Applied ai\Assesment\dataset"
 image_files = []
 for dirpath, subdir, filenames in os.walk(dataset_path):
 

@@ -4,7 +4,16 @@ filtered_data/
 non_filtered_data/
 archive/
 keypoints/
-./results/annotated/
+
+training_dataset/
+testing_dataset/
+
+# Ignore model files
+
+models/correction_model_csv.pkl
+models/yoga_pose_recognition.keras
+model/class_indices.json
+
 
 # Ignore virtual environment
 yogalense/
@@ -16,3 +25,5 @@ yogalense/
 
 log_files/
 utils/logs/
+
+

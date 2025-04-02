@@ -130,7 +130,8 @@ def extract_keypoints(preprocessed_images):
                 # Convert back to BGR for OpenCV display or saving
                 annotated_image = cv2.cvtColor(annotated_image, cv2.COLOR_RGB2GRAY)
                 base_name = os.path.splitext(filename)[0]  # Get the base name of the image
-                output_dir = os.path.join("./results/testing", base_name.split("_")[0])
+                # output_dir = os.path.join("./results/testing", base_name.split("_")[0])
+                output_dir = "./Final_results/annotated"
                 os.makedirs(output_dir, exist_ok=True)  # Create subfolder if it doesn't exist
                 output_path = os.path.join(output_dir, filename)
                 cv2.imwrite(output_path, annotated_image)
@@ -169,10 +170,11 @@ def extract_keypoints(preprocessed_images):
     plt.legend(fontsize=12)
     plt.grid(axis="y", linestyle="--", alpha=0.7)
     plt.savefig(
-        "./results/mean_visibility_distribution.png", dpi=300, bbox_inches="tight"
+        "./Final_results/mean_visibility_distribution.png", dpi=300, bbox_inches="tight"
     )
     plt.show()
 
     preprocessing_logger.info("All keypoints extracted and mean visibility calculated.")
     preprocessing_logger.info(f"Total keypoints extracted: {len(all_keypoints)}")
+    preprocessing_logger.info(f"Keypoints: {all_keypoints}")
     return all_keypoints, mean_visibility_list

@@ -171,6 +171,7 @@ def label_pose(angles, distances, pose_name):
 def feature_engg(all_keypoints, pose_name, image_width=224, image_height=224):
     features = []
     for keypoints, image in all_keypoints:
+        print(f"Processing file: {image}")
         feature_engg_logger.info(f"{50 * '-'}")
         feature_engg_logger.info(f"Processing file: {image}")
         # Normalize keypoints

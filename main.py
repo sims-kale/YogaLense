@@ -10,24 +10,27 @@ warnings.filterwarnings(
     "ignore", category=UserWarning, module="PIL"
 )  # Suppress PIL warnings
 
-flitered_dataset_path = r"D:\SHU\Applied ai\Assesment\dataset"
+flitered_dataset_path = "/filtered_data"
 
 # Main logger
 # Preprocessing logger
 preprocessing_logger = logging.getLogger("preprocessing")
-preprocessing_handler = logging.FileHandler("./log_files/preprocessing.log", mode="w")
+preprocessing_handler = logging.FileHandler("./Final_results/logs/preprocessing.log", mode="w")
 preprocessing_handler.setFormatter(logging.Formatter('%(levelname)s - %(message)s'))
 preprocessing_logger.addHandler(preprocessing_handler)
 preprocessing_logger.setLevel(logging.INFO)
 
 # Feature Engineering logger
 feature_engg_logger = logging.getLogger("feature_engg")
-feature_engg_handler = logging.FileHandler("./log_files/feature_engg.log", mode="w")
+# feature_engg_handler = logging.FileHandler("./log_files/feature_engg.log", mode="w")
+feature_engg_handler = logging.FileHandler("./Final_results/logs/feature_engg.log", mode="w")
 feature_engg_handler.setFormatter(logging.Formatter('%(levelname)s - %(message)s'))
 feature_engg_logger.addHandler(feature_engg_handler)
 feature_engg_logger.setLevel(logging.INFO)
 
+
 def main():
+    
     from pre_preprocess import preprocess_data, extract_keypoints
     from feature_engineering import feature_engg, save_features_to_csv
 
@@ -76,7 +79,7 @@ def main():
 
         # Save features to CSV
         feature_engg_logger.info("Saving features to CSV...")
-        output_csv_path = r"D:\SHU\Applied ai\Assesment\pose_features_with_labels.csv"
+        output_csv_path = "./Final_results/extracted_features_with_labels.csv"
         save_features_to_csv(all_features, output_csv_path)
 
         print("\nYoga Pose Analysis Pipeline Completed Successfully!")
