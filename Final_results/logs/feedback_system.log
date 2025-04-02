@@ -1,52 +1,45 @@
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\bridge_pose\Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_0.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\bridge_pose\Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_1.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\bridge_pose\Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_2.jpg: bridge_pose
-INFO - Feedback: Predicted Pose: bridge_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_0.jpg: cobra_pose
-INFO - Feedback: Predicted Pose: cobra_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_1.jpg: cobra_pose
-INFO - Feedback: Predicted Pose: cobra_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_2.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_3.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_4.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_5.jpg: cobra_pose
-INFO - Feedback: Predicted Pose: cobra_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_6.jpg: cobra_pose
-INFO - Feedback: Predicted Pose: cobra_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_0.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_1.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_2.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_3.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_4.jpg: cobra_pose
-INFO - Feedback: Predicted Pose: cobra_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_5.jpg: bridge_pose
-INFO - Feedback: Predicted Pose: bridge_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\tree_pose\Tree_Pose_or_Vrksasana__images_0.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\tree_pose\Tree_Pose_or_Vrksasana__images_1.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\tree_pose\Tree_Pose_or_Vrksasana__images_2.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\tree_pose\Tree_Pose_or_Vrksasana__images_3.jpg: tree_pose
-INFO - Feedback: Predicted Pose: tree_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\tree_pose\Tree_Pose_or_Vrksasana__images_4.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\warrior_pose\Warrior_I_Pose_or_Virabhadrasana_I__images_0.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\warrior_pose\Warrior_I_Pose_or_Virabhadrasana_I__images_1.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\warrior_pose\Warrior_I_Pose_or_Virabhadrasana_I__images_2.jpg: tree_pose
-INFO - Feedback: Predicted Pose: tree_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\warrior_pose\Warrior_I_Pose_or_Virabhadrasana_I__images_3.jpg: tree_pose
-INFO - Feedback: Predicted Pose: tree_pose
-INFO - Predicted pose for D:\SHU\Applied ai\Assesment\testing_dataset\train\warrior_pose\Warrior_I_Pose_or_Virabhadrasana_I__images_4.jpg: seated_forward_pose
-INFO - Feedback: Predicted Pose: seated_forward_pose
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\bridge_pose\Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_0.jpg
+INFO - images_0.jpg:Predicted pose-- seated_forward_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\bridge_pose\Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_2.jpg
+INFO - images_2.jpg:Predicted pose-- bridge_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\bridge_pose\Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_1.jpg
+INFO - images_1.jpg:Predicted pose-- seated_forward_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_6.jpg
+INFO - images_6.jpg:Predicted pose-- cobra_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_2.jpg
+INFO - images_2.jpg:Predicted pose-- seated_forward_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\cobra_pose\Cobra_Pose_or_Bhujangasana__images_3.jpg
+INFO - images_3.jpg:Predicted pose-- seated_forward_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_5.jpg
+INFO - images_5.jpg:Predicted pose-- bridge_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_2.jpg
+INFO - images_2.jpg:Predicted pose-- seated_forward_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\seated_forward_pose\Seated_Forward_Bend_pose_or_Paschimottanasana__images_4.jpg
+INFO - images_4.jpg:Predicted pose-- cobra_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\tree_pose\Tree_Pose_or_Vrksasana__images_3.jpg
+INFO - images_3.jpg:Predicted pose-- tree_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\tree_pose\Tree_Pose_or_Vrksasana__images_2.jpg
+INFO - images_2.jpg:Predicted pose-- seated_forward_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\tree_pose\Tree_Pose_or_Vrksasana__images_0.jpg
+INFO - images_0.jpg:Predicted pose-- seated_forward_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\warrior_pose\Warrior_I_Pose_or_Virabhadrasana_I__images_0.jpg
+INFO - images_0.jpg:Predicted pose-- seated_forward_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\warrior_pose\Warrior_I_Pose_or_Virabhadrasana_I__images_3.jpg
+INFO - images_3.jpg:Predicted pose-- tree_pose
+INFO -  
+INFO - D:\SHU\Applied ai\Assesment\testing_dataset\train\warrior_pose\Warrior_I_Pose_or_Virabhadrasana_I__images_1.jpg
+INFO - images_1.jpg:Predicted pose-- seated_forward_pose
+INFO -  
