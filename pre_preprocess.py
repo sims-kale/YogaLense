@@ -1,3 +1,4 @@
+from main import preprocessing_logger
 import os
 import cv2
 import logging
@@ -8,12 +9,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 import warnings
 
-# Suppress warnings
-os.environ["GLOG_minloglevel"] = "2"
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
-warnings.filterwarnings(
-    "ignore", category=UserWarning, module="PIL"
-)  # Suppress PIL warnings
+
 
 
 def normalize_images(img_resized):
@@ -22,57 +18,56 @@ def normalize_images(img_resized):
     )  # Scale pixel values between 0 and 1
     return normalize_array
 
+def preprocess_data(filtered_dataset_path):
+    preprocessed_img_files = []  # Store all preprocessed images
+    for dirpath, subdir, filenames in os.walk(filtered_dataset_path):
+        print("subdir", subdir)
+        # if "Tree_pose" in subdir:
+        #     continue
+        
+        processed_images = []  # Reset processed_images for each folder
+        for filename in filenames:
+            try:
+                if filename.lower().endswith(
+                    (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp")
+                ):
+                    file_path = os.path.join(dirpath, filename)
+                    preprocessing_logger.info(f"Processing image: {file_path}")
+                    try:
+                        with Image.open(file_path) as img:  # Open image file
 
-def preprocess_data(flitered_dataset_path):
-    try:
-        logging.info(f"Starting Pre-Processing....")
-        processed_images = []
-        for dirpath, _, filenames in os.walk(flitered_dataset_path):
-            for filename in filenames[0:500]:
-                try:
-                    if filename.lower().endswith(
-                        (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".webp")
-                    ):
-                        file_path = os.path.join(dirpath, filename)
-                        try:
-                            with Image.open(file_path) as img:  # Open image file
+                            if img.size == (0, 0):
+                                preprocessing_logger.warning(
+                                    f"Skipping {file_path} as it has zero dimensions or is corrupted"
+                                )
+                                continue  # Skip this file and move to the next
 
-                                if img.size == (0, 0):
-                                    logging.warning(
-                                        f"Skipping {file_path} as it has zero dimensions or image is corrupted"
-                                    )
-                                    continue
+                            if img.mode in ("P", "RGBA", "LA", "I", "F"):
+                                img = img.convert("RGB")
 
-                                if img.mode in ("P", "RGBA", "LA", "I", "F"):
-                                    img = img.convert("RGB")
+                            # Resize image for CNN input
+                            cnn_input_size = (224, 224)  # resize for CNN input
+                            img_resized = img.resize(cnn_input_size)
 
-                                # Resize image for CNN input
-                                cnn_input_size = (224, 224)  # resize for CNN input
-                                img_resized = img.resize(cnn_input_size)
+                            # Normalize image
+                            normalize_img = normalize_images(img_resized)
+                            processed_images.append((normalize_img, filename))
 
-                                # Normalize image
-                                normalize_img = normalize_images(img_resized)
-                                # logging.info(f"Image processed and normalized: {file_path}")
-                                # logging.info("-" * int(100))
-                                processed_images.append(normalize_img)
+                    except Exception as e:
+                        preprocessing_logger.error(
+                            f"Image is invalid and not processed: {file_path} - {str(e)[:50]}"
+                        )
+            except Exception as e:
+                preprocessing_logger.error(f"Error processing {filename}: {str(e)[:50]}")
+                continue  # Skip this file and move to the next
 
-                        except Exception as e:
-                            logging.error(
-                                f"Image is invalid not processed: {file_path}"
-                            )
-                except Exception as e:
-                    logging.error(f"Error processing {filename}: {str(e)[:50]}")
-                    continue
+        # Add processed images from the current folder to the main list
+        preprocessed_img_files.extend(processed_images)
+        preprocessing_logger.info(f"Added {len(processed_images)} images from directory: {dirpath}")
 
-                    # data augmentation
-                    # augmented_data = next(data_augmentation().flow(normalize_array, batch_size=1))
-                    # print(" augmented_data" + str(augmented_data.shape))
-                    # save_preprocess_images(flitered_dataset_path, filename, relative_path,
-                    #    normalize_img)
-        logging.info(f"Dataset resized and normalized")
-        return processed_images
-    except Exception as e:
-        logging.error(f"Unexpected error: {str(e)[:50]}")
+    preprocessing_logger.info("Dataset resized and normalized")
+    return preprocessed_img_files
+    
 
 
 # def data_augmentation():
@@ -91,16 +86,20 @@ def extract_keypoints(preprocessed_images):
     # Initialize MediaPipe Pose model
     mp_pose = mp.solutions.pose
     pose = mp_pose.Pose(static_image_mode=True)
-    print("test")
+    mp_drawing = mp.solutions.drawing_utils  # For drawing landmarks
+    mp_drawing_styles = mp.solutions.drawing_styles  # For drawing styles
 
     all_keypoints = []
     mean_visibility_list = []
-    for img in preprocessed_images:
+    for img, filename in preprocessed_images:
+        preprocessing_logger.info(f"Extracting keypoints for {filename}")
 
         try:
             # Convert the preprocessed image to the correct format
             image = np.array(img * 255, dtype=np.uint8)  # Scale back to 0-255 range
-            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+            # image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)  # Convert to BGR for OpenCV
+            image = cv2.resize(image, (255, 255))  # Ensure the image is resized correctly
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # Convert back to RGB for MediaPipe
 
             # Process the image to detect pose
             results = pose.process(image)
@@ -112,20 +111,35 @@ def extract_keypoints(preprocessed_images):
                     keypoints.extend(
                         [landmark.x, landmark.y, landmark.z, landmark.visibility]
                     )
-                    # logging.info(f"kepoints exteded for the image", keypoints)
                 # Calculate mean visibility for this image
-                # print("keypoints", keypoints)
                 mean_visibility = np.mean(keypoints[3::4])
                 mean_visibility_list.append(mean_visibility)
-                # Print the mean visibility for each image
-                logging.info(
+                preprocessing_logger.info(
                     f"Image {len(mean_visibility_list)}: Mean Visibility = {mean_visibility:.2f}"
                 )
-                all_keypoints.append(keypoints)
-                logging.info("All Keypoints are extracted in the list")
+                all_keypoints.append((keypoints, filename))
+
+                # Visualize keypoints on the image
+                annotated_image = image.copy()
+                mp_drawing.draw_landmarks(
+                    annotated_image,
+                    results.pose_landmarks,
+                    mp_pose.POSE_CONNECTIONS,
+                    landmark_drawing_spec=mp_drawing_styles.get_default_pose_landmarks_style(),
+                )
+                # Convert back to BGR for OpenCV display or saving
+                annotated_image = cv2.cvtColor(annotated_image, cv2.COLOR_RGB2GRAY)
+                base_name = os.path.splitext(filename)[0]  # Get the base name of the image
+                output_dir = os.path.join("./results/testing", base_name.split("_")[0])
+                os.makedirs(output_dir, exist_ok=True)  # Create subfolder if it doesn't exist
+                output_path = os.path.join(output_dir, filename)
+                cv2.imwrite(output_path, annotated_image)
+                preprocessing_logger.info(f"Annotated image saved to {output_path}")
+
         except Exception as e:
-            logging.error(f"Error extracting keypoints: {str(e)[:50]}")
+            preprocessing_logger.error(f"Error extracting keypoints: {str(e)[:50]}")
             continue
+        preprocessing_logger.info(f"Keypoints extracted for {filename}")
 
     # Visualize the distribution of mean visibility after processing all images
     low_visibility = [v for v in mean_visibility_list if v < 0.6]
@@ -159,5 +173,6 @@ def extract_keypoints(preprocessed_images):
     )
     plt.show()
 
-    logging.info("All keypoints extracted and mean visibility calculated.")
+    preprocessing_logger.info("All keypoints extracted and mean visibility calculated.")
+    preprocessing_logger.info(f"Total keypoints extracted: {len(all_keypoints)}")
     return all_keypoints, mean_visibility_list

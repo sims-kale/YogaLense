@@ -4,6 +4,7 @@ filtered_data/
 non_filtered_data/
 archive/
 keypoints/
+./results/annotated/
 
 # Ignore virtual environment
 yogalense/
