@@ -63,10 +63,16 @@ def predict_correctness(image_name):
     feature_vector = np.array(eval(feature_vector))  
     feature_vector = feature_vector.reshape(1, -1) 
     # Predict correctness
-    prediction = feedback_model.predict(feature_vector)
+    # prediction = feedback_model.predict(feature_vector)
+    # correctness = "correct" if prediction[0] == 1 else "incorrect"
+    probabilities = feedback_model.predict_proba(feature_vector)  # Get probability scores
+    correctness_score = probabilities[0][1] * 100  # Probability of being "correct"
+    prediction = feedback_model.predict(feature_vector)  # Predict class (0 or 1)
     correctness = "correct" if prediction[0] == 1 else "incorrect"
-    feedback_logger.info(f"Predicted correctness: {correctness}")
-    return correctness, feature_row["Label"].values[0]
+
+    # feedback_logger.info(f"Predicted correctness: {correctness}")
+    feedback_logger.info(f"Predicted correctness: {correctness} ({correctness_score:.2f}%)")
+    return correctness, correctness_score, feature_row["Label"].values[0]
 
 # Feedback system main func.
 def feedback_system(image_path):
@@ -75,13 +81,13 @@ def feedback_system(image_path):
         # print(f"Predicted Pose: {pose_name}")
         # Predict correctness
         image_name = os.path.basename(image_path)
-        correctness, label = predict_correctness(image_name)
+        correctness, correctness_score, label = predict_correctness(image_name)
 
         if correctness is None:
             print("Feature vector not found for this image.")
             return
-
-        print(f"Feedback: Your {pose_name} is {correctness}.")
+        print(f"Feedback: Your {pose_name} is {correctness} ({correctness_score:.2f}%).")
+        # print(f"Feedback: Your {pose_name} is {correctness}.")
         if correctness == "incorrect":
             print(f"Suggestion: Adjust your pose based on the angles and distances.")
             feedback_logger.info(f"Suggestion: Adjust your pose based on the angles and distances.")

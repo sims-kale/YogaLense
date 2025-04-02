@@ -1,106 +1,109 @@
 INFO -  
 INFO - Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_0.jpg
 INFO - Predicted pose-- seated_forward_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (73.64%)
 INFO -  
 INFO - Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_1.jpg
 INFO - Predicted pose-- cobra_pose
-INFO - Predicted correctness: incorrect
+INFO - Predicted correctness: incorrect (17.54%)
 INFO - Suggestion: Adjust your pose based on the angles and distances.
 INFO -  
 INFO - Bridge_Pose_or_Setu_Bandha_Sarvangasana__images_2.jpg
 INFO - Predicted pose-- bridge_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (74.88%)
 INFO -  
 INFO - Cobra_Pose_or_Bhujangasana__images_0.jpg
 INFO - Predicted pose-- cobra_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (60.08%)
 INFO -  
 INFO - Cobra_Pose_or_Bhujangasana__images_1.jpg
 INFO - Predicted pose-- cobra_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (81.58%)
 INFO -  
 INFO - Cobra_Pose_or_Bhujangasana__images_2.jpg
 INFO - Predicted pose-- seated_forward_pose
 WARNING - Feature vector not found for image: Cobra_Pose_or_Bhujangasana__images_2.jpg
+ERROR - Error in feedback system: not enough values to unpack (expected 3, got 2)
 INFO -  
 INFO - Cobra_Pose_or_Bhujangasana__images_3.jpg
 INFO - Predicted pose-- seated_forward_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (97.47%)
 INFO -  
 INFO - Cobra_Pose_or_Bhujangasana__images_4.jpg
 INFO - Predicted pose-- seated_forward_pose
 WARNING - Feature vector not found for image: Cobra_Pose_or_Bhujangasana__images_4.jpg
+ERROR - Error in feedback system: not enough values to unpack (expected 3, got 2)
 INFO -  
 INFO - Cobra_Pose_or_Bhujangasana__images_5.jpg
 INFO - Predicted pose-- cobra_pose
-INFO - Predicted correctness: incorrect
+INFO - Predicted correctness: incorrect (33.90%)
 INFO - Suggestion: Adjust your pose based on the angles and distances.
 INFO -  
 INFO - Cobra_Pose_or_Bhujangasana__images_6.jpg
 INFO - Predicted pose-- seated_forward_pose
 WARNING - Feature vector not found for image: Cobra_Pose_or_Bhujangasana__images_6.jpg
+ERROR - Error in feedback system: not enough values to unpack (expected 3, got 2)
 INFO -  
 INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_0.jpg
 INFO - Predicted pose-- seated_forward_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (76.47%)
 INFO -  
 INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_1.jpg
 INFO - Predicted pose-- cobra_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (96.18%)
 INFO -  
 INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_2.jpg
 INFO - Predicted pose-- seated_forward_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (90.53%)
 INFO -  
 INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_3.jpg
 INFO - Predicted pose-- seated_forward_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (96.69%)
 INFO -  
 INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_4.jpg
 INFO - Predicted pose-- cobra_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (96.48%)
 INFO -  
 INFO - Seated_Forward_Bend_pose_or_Paschimottanasana__images_5.jpg
 INFO - Predicted pose-- bridge_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (74.88%)
 INFO -  
 INFO - Tree_Pose_or_Vrksasana__images_0.jpg
 INFO - Predicted pose-- seated_forward_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (76.47%)
 INFO -  
 INFO - Tree_Pose_or_Vrksasana__images_1.jpg
 INFO - Predicted pose-- cobra_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (93.98%)
 INFO -  
 INFO - Tree_Pose_or_Vrksasana__images_2.jpg
 INFO - Predicted pose-- seated_forward_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (68.51%)
 INFO -  
 INFO - Tree_Pose_or_Vrksasana__images_3.jpg
 INFO - Predicted pose-- tree_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (75.47%)
 INFO -  
 INFO - Tree_Pose_or_Vrksasana__images_4.jpg
 INFO - Predicted pose-- tree_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (79.78%)
 INFO -  
 INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_0.jpg
 INFO - Predicted pose-- seated_forward_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (76.47%)
 INFO -  
 INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_1.jpg
 INFO - Predicted pose-- cobra_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (98.01%)
 INFO -  
 INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_2.jpg
 INFO - Predicted pose-- tree_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (98.57%)
 INFO -  
 INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_3.jpg
 INFO - Predicted pose-- tree_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (98.58%)
 INFO -  
 INFO - Warrior_I_Pose_or_Virabhadrasana_I__images_4.jpg
 INFO - Predicted pose-- tree_pose
-INFO - Predicted correctness: correct
+INFO - Predicted correctness: correct (79.78%)
