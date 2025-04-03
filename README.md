@@ -212,3 +212,4 @@ Otherwise, the pose is labeled as "incorrect."
 - [ ] Personalized adaptation engine
 
 ---
+Enjoy exploring the project!🥂
